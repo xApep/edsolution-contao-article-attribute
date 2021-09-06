@@ -1,0 +1,24 @@
+{
+    "name": "edsolution/contao-article-attribute",
+    "description": "Add custom attribute to article wrapper",
+    "type": "contao-module",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "xapep",
+            "email": "andraz.pavlic@edsolution.si"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "contao/core-bundle": "~3.0 || ~4.0",
+        "contao-community-alliance/composer-plugin": "~2.4 || ~3.0"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "src": "system/modules/edsolution-article-attribute"
+            }
+        }
+    }
+}
