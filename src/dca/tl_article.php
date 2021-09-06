@@ -30,6 +30,8 @@ $GLOBALS['TL_DCA']['tl_article']['fields']['custom_attribute'] = array(
     'eval' => [
         'maxlength' => 255,
         'tl_class' => 'w50',
+        'allowHtml' => true,
+        'preserveTags' => true,
     ],
     'sql' => "varchar(255) NOT NULL default ''",
 );
